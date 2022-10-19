@@ -1,0 +1,3 @@
+# CPaste
+
+### Sharex Hastebin copy

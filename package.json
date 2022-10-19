@@ -1,0 +1,37 @@
+{
+  "name": "cpaste-text",
+  "version": "1.0.0",
+  "description": "CPaste is Text Uploader hosting similar to Hastebin and Pastebin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustHxnry/node-cpaste-text.git"
+  },
+  "keywords": [
+    "hastebin",
+    "pastebin",
+    "text"
+  ],
+  "author": "JustHxnry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustHxnry/node-cpaste-text/issues"
+  },
+  "homepage": "https://github.com/JustHxnry/node-cpaste-text#readme",
+  "dependencies": {
+    "@justhxnry/jsoned": "^1.0.0",
+    "@justhxnry/randoms": "^1.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
